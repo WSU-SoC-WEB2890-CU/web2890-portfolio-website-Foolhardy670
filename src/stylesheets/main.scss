@@ -1,14 +1,25 @@
 /* Your styles go here */
 
-@import 'variables';
-$font-title: 'Jockey One', sans-serif;
-$font-body: 'Kanit', sans-serif;
+$primary: #000;
+$secondary: #fff;
+$border-radius: 30px;
+
+
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  
+);
+
 
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 
-
+$font-title: 'Jockey One', sans-serif;
+$font-body: 'Kanit', sans-serif;
 
 
 
